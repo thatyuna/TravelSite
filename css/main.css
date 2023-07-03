@@ -1,0 +1,153 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color: white;
+}
+
+/* Style the navigation bar links */
+.navbar li {
+    display: inline-block;
+    float:right;
+}
+.navsubtitle li a:active {
+    text-decoration: underline;
+    text-decoration-color: 2px solid#DB7A4E;
+  }
+  .navsubtitle li a:visited {
+    text-decoration: underline;
+    text-decoration-color: 2px solid#DB7A4E;
+  }
+
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #FFF;
+}
+
+
+ul.navbar li a:active {
+    border-bottom: 1px solid #DB7A4E;
+}
+
+.get-started {
+    background-color: #DB7A4E;
+    color:#FFF;
+    font-size: medium;
+    padding: 20px;
+    
+    height: 30px;
+    width: 150px;
+    border-radius: 360px;
+}
+
+.container {
+    background-color:#FEFAF5 ;
+    position: relative;
+    text-align: left;
+    color: #335576;
+}
+
+ul.navtitle h2 a {
+    float: left;
+    text-decoration: none;
+    color: #335576;
+}
+
+h1,h2 {
+    color: #335576;
+    
+}
+p {
+    color: #335576;
+}
+
+.img-container {
+    position: relative;
+}
+.img-text {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 20px;
+    text-align: left ;
+  }
+  .img-text h1 {
+    margin-top: 0;
+  }
+  
+  .img-text p {
+    margin-bottom: 20px;
+  }
+.card-container {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 5% 10%;
+}
+
+/* Style the individual cards */
+.card {
+    width: 280px;
+    height: 420px;
+    background-color: #f2f2f2;
+    border-bottom-left-radius: 5px;
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing:border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+    /* text-align: end; */
+
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+/* Style the card heading */
+.card h2 {
+    bottom: 0;
+    right: 0;
+    color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-content {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer-content-header {
+    margin-bottom: 25px;
+    color: #335576;
+}
+h5 {
+    color: #DB7A4E;
+}
+
+.whiteback {
+    background-color: #FFFFFF;
+}
+.back {
+    background-color: #FEFAF5;
+}
+
+.space {
+    margin-right: 20px ;
+}
+
